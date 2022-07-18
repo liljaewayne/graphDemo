@@ -27,8 +27,8 @@
 根据PecategoryCreate.csv中的数据生成多个PE, PE需满足如下条件:
 
 1. PE的2节点是PecategoryCreate的2节点, 且1,3节点都是在KgTriple中定义的可以与2节点可以直接相连的节点
-2. PE的1节点 <b>必须包含</b>PecategoryCreate中定义的node1节点作为其Modifier
-3. PE的3节点 <b>必须包含</b>PecategoryCreate中定义的node3节点作为其Modifier
+2. PE的1节点 <b>必须包含</b> PecategoryCreate中定义的node1节点作为其Modifier
+3. PE的3节点 <b>必须包含</b> PecategoryCreate中定义的node3节点作为其Modifier
 4. PE的1,3节点的modifier必须是<b>最短修饰链</b>
 
 ## 数据
