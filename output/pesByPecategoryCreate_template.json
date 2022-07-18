@@ -1,0 +1,428 @@
+[
+  {
+    "nm1": {
+      "base": {
+        "id": null,
+        "name": "human",
+        "conceptType": "c_countable_concept",
+        "type": "ConceptNode"
+      },
+      "modifiers": [
+        {
+          "nm1": {
+            "base": {
+              "id": null,
+              "name": "some_pronoun",
+              "conceptType": "c_entity",
+              "type": "ConceptNode"
+            },
+            "modifiers": [],
+            "query": null
+          },
+          "nm2": {
+            "base": {
+              "id": null,
+              "name": "represent",
+              "relation": "e_represent",
+              "peCategoryStr": "c_represent",
+              "type": "RelationNode"
+            },
+            "modifiers": [],
+            "query": null
+          },
+          "nm3": {
+            "base": {
+              "id": null,
+              "name": "",
+              "conceptType": "NONE",
+              "type": "ConceptNode"
+            },
+            "modifiers": [],
+            "query": null
+          },
+          "modifierType": null
+        }
+      ],
+      "query": null
+    },
+    "nm2": {
+      "base": {
+        "id": null,
+        "name": "eat",
+        "relation": "e_act",
+        "peCategoryStr": "c_act",
+        "type": "RelationNode"
+      },
+      "modifiers": [],
+      "query": null
+    },
+    "nm3": {
+      "base": {
+        "id": null,
+        "name": "liquid_food",
+        "conceptType": "c_countable_concept",
+        "type": "ConceptNode"
+      },
+      "modifiers": [
+        {
+          "nm1": {
+            "base": {
+              "id": null,
+              "name": "restaurant",
+              "conceptType": "c_countable_concept",
+              "type": "ConceptNode"
+            },
+            "modifiers": [
+              {
+                "nm1": {
+                  "base": {
+                    "id": null,
+                    "name": "",
+                    "conceptType": "NONE",
+                    "type": "ConceptNode"
+                  },
+                  "modifiers": [],
+                  "query": null
+                },
+                "nm2": {
+                  "base": {
+                    "id": null,
+                    "name": "restaurant_name",
+                    "conceptType": "c_entity",
+                    "type": "ConceptNode"
+                  },
+                  "modifiers": [],
+                  "query": null
+                },
+                "nm3": {
+                  "base": {
+                    "id": null,
+                    "name": "some_shop_name",
+                    "conceptType": "c_entity",
+                    "type": "ConceptNode"
+                  },
+                  "modifiers": [],
+                  "query": null
+                },
+                "modifierType": null
+              }
+            ],
+            "query": null
+          },
+          "nm2": {
+            "base": {
+              "id": null,
+              "name": "have",
+              "relation": "e_status",
+              "peCategoryStr": "c_status",
+              "type": "RelationNode"
+            },
+            "modifiers": [],
+            "query": null
+          },
+          "nm3": {
+            "base": {
+              "id": null,
+              "name": "",
+              "conceptType": "NONE",
+              "type": "ConceptNode"
+            },
+            "modifiers": [],
+            "query": null
+          },
+          "modifierType": null
+        }
+      ],
+      "query": null
+    },
+    "pecategory": "MAKER_ACT_TAKER",
+    "obj_direct": false,
+    "主干node1": "some_pronoun",
+    "主干node2": "eat",
+    "主干node3": "some_shop_name"
+  },
+  {
+    "nm1": {
+      "base": {
+        "id": null,
+        "name": "human",
+        "conceptType": "c_countable_concept",
+        "type": "ConceptNode"
+      },
+      "modifiers": [
+        {
+          "nm1": {
+            "base": {
+              "id": null,
+              "name": "some_pronoun",
+              "conceptType": "c_entity",
+              "type": "ConceptNode"
+            },
+            "modifiers": [],
+            "query": null
+          },
+          "nm2": {
+            "base": {
+              "id": null,
+              "name": "represent",
+              "relation": "e_represent",
+              "peCategoryStr": "c_represent",
+              "type": "RelationNode"
+            },
+            "modifiers": [],
+            "query": null
+          },
+          "nm3": {
+            "base": {
+              "id": null,
+              "name": "",
+              "conceptType": "NONE",
+              "type": "ConceptNode"
+            },
+            "modifiers": [],
+            "query": null
+          },
+          "modifierType": null
+        }
+      ],
+      "query": null
+    },
+    "nm2": {
+      "base": {
+        "id": null,
+        "name": "eat",
+        "relation": "e_act",
+        "peCategoryStr": "c_act",
+        "type": "RelationNode"
+      },
+      "modifiers": [],
+      "query": null
+    },
+    "nm3": {
+      "base": {
+        "id": null,
+        "name": "food",
+        "conceptType": "c_countable_concept",
+        "type": "ConceptNode"
+      },
+      "modifiers": [
+        {
+          "nm1": {
+            "base": {
+              "id": null,
+              "name": "restaurant",
+              "conceptType": "c_countable_concept",
+              "type": "ConceptNode"
+            },
+            "modifiers": [
+              {
+                "nm1": {
+                  "base": {
+                    "id": null,
+                    "name": "",
+                    "conceptType": "NONE",
+                    "type": "ConceptNode"
+                  },
+                  "modifiers": [],
+                  "query": null
+                },
+                "nm2": {
+                  "base": {
+                    "id": null,
+                    "name": "restaurant_name",
+                    "conceptType": "c_entity",
+                    "type": "ConceptNode"
+                  },
+                  "modifiers": [],
+                  "query": null
+                },
+                "nm3": {
+                  "base": {
+                    "id": null,
+                    "name": "some_shop_name",
+                    "conceptType": "c_entity",
+                    "type": "ConceptNode"
+                  },
+                  "modifiers": [],
+                  "query": null
+                },
+                "modifierType": null
+              }
+            ],
+            "query": null
+          },
+          "nm2": {
+            "base": {
+              "id": null,
+              "name": "cook",
+              "relation": "e_act",
+              "peCategoryStr": "c_act",
+              "type": "RelationNode"
+            },
+            "modifiers": [],
+            "query": null
+          },
+          "nm3": {
+            "base": {
+              "id": null,
+              "name": "",
+              "conceptType": "NONE",
+              "type": "ConceptNode"
+            },
+            "modifiers": [],
+            "query": null
+          },
+          "modifierType": null
+        }
+      ],
+      "query": null
+    },
+    "pecategory": "MAKER_ACT_TAKER",
+    "obj_direct": false,
+    "主干node1": "some_pronoun",
+    "主干node2": "eat",
+    "主干node3": "some_shop_name"
+  },
+  {
+    "nm1": {
+      "base": {
+        "id": null,
+        "name": "human",
+        "conceptType": "c_countable_concept",
+        "type": "ConceptNode"
+      },
+      "modifiers": [
+        {
+          "nm1": {
+            "base": {
+              "id": null,
+              "name": "some_pronoun",
+              "conceptType": "c_entity",
+              "type": "ConceptNode"
+            },
+            "modifiers": [],
+            "query": null
+          },
+          "nm2": {
+            "base": {
+              "id": null,
+              "name": "represent",
+              "relation": "e_represent",
+              "peCategoryStr": "c_represent",
+              "type": "RelationNode"
+            },
+            "modifiers": [],
+            "query": null
+          },
+          "nm3": {
+            "base": {
+              "id": null,
+              "name": "",
+              "conceptType": "NONE",
+              "type": "ConceptNode"
+            },
+            "modifiers": [],
+            "query": null
+          },
+          "modifierType": null
+        }
+      ],
+      "query": null
+    },
+    "nm2": {
+      "base": {
+        "id": null,
+        "name": "eat",
+        "relation": "e_act",
+        "peCategoryStr": "c_act",
+        "type": "RelationNode"
+      },
+      "modifiers": [],
+      "query": null
+    },
+    "nm3": {
+      "base": {
+        "id": null,
+        "name": "food",
+        "conceptType": "c_countable_concept",
+        "type": "ConceptNode"
+      },
+      "modifiers": [
+        {
+          "nm1": {
+            "base": {
+              "id": null,
+              "name": "restaurant",
+              "conceptType": "c_countable_concept",
+              "type": "ConceptNode"
+            },
+            "modifiers": [
+              {
+                "nm1": {
+                  "base": {
+                    "id": null,
+                    "name": "",
+                    "conceptType": "NONE",
+                    "type": "ConceptNode"
+                  },
+                  "modifiers": [],
+                  "query": null
+                },
+                "nm2": {
+                  "base": {
+                    "id": null,
+                    "name": "restaurant_name",
+                    "conceptType": "c_entity",
+                    "type": "ConceptNode"
+                  },
+                  "modifiers": [],
+                  "query": null
+                },
+                "nm3": {
+                  "base": {
+                    "id": null,
+                    "name": "some_shop_name",
+                    "conceptType": "c_entity",
+                    "type": "ConceptNode"
+                  },
+                  "modifiers": [],
+                  "query": null
+                },
+                "modifierType": null
+              }
+            ],
+            "query": null
+          },
+          "nm2": {
+            "base": {
+              "id": null,
+              "name": "have",
+              "relation": "e_status",
+              "peCategoryStr": "c_status",
+              "type": "RelationNode"
+            },
+            "modifiers": [],
+            "query": null
+          },
+          "nm3": {
+            "base": {
+              "id": null,
+              "name": "",
+              "conceptType": "NONE",
+              "type": "ConceptNode"
+            },
+            "modifiers": [],
+            "query": null
+          },
+          "modifierType": null
+        }
+      ],
+      "query": null
+    },
+    "pecategory": "MAKER_ACT_TAKER",
+    "obj_direct": false,
+    "主干node1": "some_pronoun",
+    "主干node2": "eat",
+    "主干node3": "some_shop_name"
+  }
+]

@@ -1,0 +1,4 @@
+id,PE,type,node1,node2,node3
+1,[ some_pronoun represent  ] human eat [ [  restaurant_name some_shop_name ] restaurant have  ] liquid_food,MAKER_ACT_TAKER,some_pronoun,eat,some_shop_name
+2,[ some_pronoun represent  ] human eat [ [  restaurant_name some_shop_name ] restaurant cook  ] food,MAKER_ACT_TAKER,some_pronoun,eat,some_shop_name
+3,[ some_pronoun represent  ] human eat [ [  restaurant_name some_shop_name ] restaurant have  ] food,MAKER_ACT_TAKER,some_pronoun,eat,some_shop_name
