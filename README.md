@@ -1,4 +1,4 @@
-# graphDemo
+# graphDemo: 基于三元组的图算法demo
 
 ## 概念:
 
