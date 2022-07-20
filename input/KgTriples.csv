@@ -110,8 +110,6 @@ value,at,time
 value,at,address
 food,cooking_method,some_cooking_method
 food,flavor,some_food_flavor
-food,food_ingredient,some_food_ingredient
-food,food_ingredient_type,some_ingredient_type
 food,food_name,some_food_name
 food,palatability,some_food_palatability
 food,quantity,some_quantity

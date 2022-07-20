@@ -94,4 +94,9 @@ public class RoadUtil {
         }
         return roads;
     }
+
+    public static Road roadToMidToTail(Road beginToMidRoad, Road midToTargetRoad) {
+        Road connect = Road.connect(beginToMidRoad, midToTargetRoad);
+        return connect;
+    }
 }

@@ -2,6 +2,7 @@ package com.ljw.graph.entity.graph;
 
 import com.google.common.collect.Lists;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 
@@ -11,6 +12,7 @@ import java.util.Set;
 
 @Data
 @Slf4j
+@EqualsAndHashCode
 public class Road {
     private String beginWord;
     private List<Step> steps = new ArrayList<>();
@@ -69,9 +71,9 @@ public class Road {
         return connectedRoad;
     }
 
-    public static List<Road> of(String beginWord, Set<Step> steps) {
+    public static List<Road> gen1StepRoads_beginToSameEndSteps(String beginWord, Set<Step> sameEndSteps) {
         List<Road> roads = new ArrayList<>();
-        for (Step step : steps) {
+        for (Step step : sameEndSteps) {
             roads.add(
                     new Road(beginWord, Lists.newArrayList(step))
             );
