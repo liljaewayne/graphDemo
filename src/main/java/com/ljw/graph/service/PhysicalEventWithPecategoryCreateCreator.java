@@ -52,10 +52,7 @@ public class PhysicalEventWithPecategoryCreateCreator {
      * 如果起始点不是目标点, 则返回非空列表
      */
     public static List<Road> findShortestRoadsInGraph(String beginWord, String target) {
-        Road initialRoad = new Road(beginWord);
-        Map<String, Set<Road>> shortestRoadsDic = new HashMap<>();
-        List<Road> shortestRoads = findRoads(initialRoad, target, shortestRoadsDic, Sets.newHashSet(beginWord));
-        return shortestRoads;
+        return ShortestBfsProcessor.findShortestRoadsInGraph(beginWord, target);
     }
 
     /**
@@ -64,6 +61,7 @@ public class PhysicalEventWithPecategoryCreateCreator {
      * 如果起始点就是目标点, 则返回空列表
      * 如果起始点不是目标点, 则返回非空列表
      * (没watch是null, 则没试过, watch了是null, 则无法到达)
+     * @deprecated 用ShortestBfsProcessor.findShortestRoadsInGraph(beginWord, target);代替
      */
     public static List<Road> findRoads(Road beginRoad, String target, Map<String, Set<Road>> shortestRoadsDic, Set<String> watched) {
 

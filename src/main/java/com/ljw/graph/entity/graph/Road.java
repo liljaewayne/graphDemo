@@ -27,18 +27,7 @@ public class Road {
         this.steps = steps;
     }
 
-
-    public boolean reachedTarget(String target) {
-        if (steps.size() == 0) {
-            return false;
-        }
-
-        Step lastStep = steps.get(steps.size() - 1);
-        return StringUtils.equals(lastStep.getWord(), target);
-    }
-
-
-    public String curReachedWord() {
+    public String endWord() {
         if (steps.size() == 0) {
             return null;
         }
