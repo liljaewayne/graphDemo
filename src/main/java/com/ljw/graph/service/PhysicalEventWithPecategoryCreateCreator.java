@@ -53,6 +53,17 @@ public class PhysicalEventWithPecategoryCreateCreator {
      */
     public static List<Road> findShortestRoadsInGraph(String beginWord, String target) {
         return ShortestBfsProcessor.findShortestRoadsInGraph(beginWord, target);
+//        return findShortestRoadsInGraphDeprecated(beginWord, target);
+    }
+
+    /**
+     * @deprecated
+     */
+    public static List<Road> findShortestRoadsInGraphDeprecated(String beginWord, String target) {
+        Road initialRoad = new Road(beginWord);
+        Map<String, Set<Road>> shortestRoadsDic = new HashMap<>();
+        List<Road> shortestRoads = findRoads(initialRoad, target, shortestRoadsDic, Sets.newHashSet(beginWord));
+        return shortestRoads;
     }
 
     /**
